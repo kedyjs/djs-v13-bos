@@ -2,7 +2,7 @@ module.exports = {
 	name: 'ready',
 	once: true,
 	execute(client) {
-		const config = require("../config.json") 
+		const ayarlar = require("../ayarlar.json") 
 		client.application.commands.set([
 			{
 				name: 'ping',
